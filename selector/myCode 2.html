@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        *{
+            color:blue
+        }
+
+        /* div{
+            border: solid;
+            border-width:1px ;
+            border-color: black;
+        } */
+        .div1{
+            text-decoration: underline;
+        }
+        #div-n1{
+            background-color: gray;
+        }
+        .div1 ,.div2 {
+            font-size: 33px;
+        }
+
+        .div1 div{
+            background-color: green;
+            margin: 10px;
+        }
+        .p-container ul{
+            background-color: white;
+        }
+        ul > a{
+           color: black;
+        }
+
+        /*takes the last element in this example is a*/
+        .first-element+a{
+            background-color: blue;
+        }
+        .first-element~a~a{
+            background-color: navajowhite;
+        }
+        /*attribute that you name in the html line*/
+        a[sweet]{
+            color:white
+        }
+        a[sweet=none]{
+            /* color: brown; */
+            background-color: white;
+            border: solid;
+            border-color: black;
+        }
+        a[sweet^='nice']{
+            color: navy;
+        }
+        a[sweet$='milk']{
+            color: magenta;
+        }
+        a[sweet*='ce-']{
+            color: thistle;
+        }
+
+        .div2 button:active{
+            background-color: blue;
+            transform: scale(0.96);
+        }
+        .div2 button:hover{
+            color :red;
+        }
+        input:required{
+            background-color: blue;
+        }
+        input:optional{
+            background-color: green;
+        }
+
+        input:not([type='text']){
+            border: solid;
+        }
+        div~div~div{
+            height: 100px;
+            width: 100%;
+            
+        }
+        div:empty{
+            display: none;
+            background-color: blue;
+        }
+
+        .unurdered-list:first-child{
+            color: blue;
+            background-color: black;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div-n1" class="div1"> 
+        <div class="p-container">
+            <p>this is p one</p>
+            <ul class="unurdered-list">
+                <a class="first-element" href="">link </a>
+                <a href="" sweet>link </a>
+                <a href="" sweet="none">link </a>
+                <a href="" sweet="nice-shoco">link </a>
+                <a href="" sweet="nice-milk">link </a>
+                <a href="" sweet="froze-milk">link </a>
+                <a href="" sweet="white-milk">link </a>
+                <a href="" sweet="oat-milk">link </a>
+            </ul>
+        </div>
+    </div>
+
+    <div id="div-n2" class="div2">
+        <button >click me</button>
+        <input type="text" required>
+        <input type="number" name="" value="" optional>
+    </div>
+    <div></div>
+</body>
+</html>

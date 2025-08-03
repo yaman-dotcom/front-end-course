@@ -1,0 +1,13 @@
+.red-section{
+    background-color: red;
+    margin: 0 auto;
+    width: fit-content;
+    
+}
+.blue-box{
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    /* display: flex; */
+    background-color: blue;
+}

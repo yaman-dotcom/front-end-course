@@ -1,0 +1,42 @@
+        body {
+            background-color: rgb(30, 30, 68);
+            color: #fff
+        }
+        img {
+            max-width: 100%;
+            min-width: 500px;
+            /* opacity: 0.1; */
+        }
+        .elm {
+            /* display: inline-block; */
+        }
+        .elm2 {
+            
+            /* margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px; */
+
+            /* margin: 30px; */
+            /* margin: 30px 30px 30px 30px; */
+            /* margin: 30px 30px; */
+            margin: 30px 30px 30px;
+
+            padding: 15px;
+
+            height: 200px;
+            
+        }
+
+        .elm2 {
+            
+            background-image: url(../imgs/pic.jpg);
+
+            background-color: red;
+
+            background-size: cover;
+            background-position: center 10%;
+            background-repeat: no-repeat;
+
+            /* background: #c90 no-repeat url(../imgs/pic.jpg)  */
+        }

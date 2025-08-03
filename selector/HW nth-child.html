@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>:first-child{
+            div:last-child{
+                font-size: 24px;
+            }
+        }
+        body>:nth-child(2){
+            div:first-child{
+                font-size: 24px;
+            }
+            div:last-child{
+                color: red;
+            }
+        }
+        body > :nth-child(3){
+            div:first-child,div:nth-child(2){
+                display: inline-block;
+            }
+            div:last-child{
+                font-style: italic;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div >
+        <h1>My Page</h1>
+        <div>Our products list</div>
+    </div>
+
+    <div class="part2">
+        <div class="maininfo">Content one</div>
+        <div class="style1 maininfo">Content two</div>
+    </div>
+
+    <div class="part4">
+        <div>Hello </div>
+        <div>dear customer </div>
+        <div>feel free to surf our products</div>
+    </div>
+    
+</body>

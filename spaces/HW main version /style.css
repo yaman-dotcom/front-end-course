@@ -1,0 +1,73 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+p{
+    font-size: 11px;
+    color: gray;
+}
+
+.tamkeen-logo{
+    width: 50px;
+    
+}
+.tamkeen-logo ,.header-text{
+    display: inline-block;
+}
+
+.header-text{
+    color: rgb(91, 157, 222);
+    font-size: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-width: 0 0 0.3px 0;
+    padding: 5px 30px;
+}
+
+
+.hero-section{
+    background-color: rgb(227, 227, 227);
+    padding-bottom: 50px;
+}
+
+.first-section{
+   padding: 30px;
+}
+.header2{
+    color: rgb(91, 157, 222);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+.secound-section{
+    display: flex;
+    padding: 0 30px;
+    gap: 10px;
+}
+.info-card{
+    border: solid;
+    border-color: gray;
+    border-width: 0.3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.card-image{
+    max-width: 100%;
+    border: solid;
+    border-color: gray;
+    border-width: 0.3px;
+}
+.card-title{
+    color: rgb(86, 86, 86);
+    font-size: 13px;
+    font-weight: 200;
+}
+
+

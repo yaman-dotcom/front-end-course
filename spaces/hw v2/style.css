@@ -1,0 +1,64 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+html{
+    background-color: rgb(234, 233, 233);
+    margin: 0;
+}
+.header{
+    padding: 0 30px;
+    border-bottom: solid;
+    color: rgb(212, 212, 212);
+    background-color: white;
+}
+h1{
+    display: inline-block;
+    width: fit-content;
+    color: rgb(54, 147, 201);
+    
+}
+.tamkeen-logo{
+    width: 90px;
+    
+}
+.header-text-container{
+    display: inline-block;
+    width: fit-content;
+    height: 100%;
+    margin: auto 0;
+}
+.hero-section{
+    margin: 20px 30px;
+
+}
+.first-section *:first-child{
+    margin: 0;
+    color: rgb(54, 147, 201);
+}
+.hero-section p:first-of-type{
+    color: gray;
+    margin: 0 0 20px;
+}
+
+
+.secound-section *{
+    display: inline-block;
+    max-width: 200px;
+    
+}
+img{
+    max-width: 200px;
+}
+.secound-section div:first-of-type{
+    margin-right: 20px;
+}
+.secound-section div h5{
+    margin: 12px 0 4px;
+}
+.secound-section div{
+    border: solid;
+    border-color: gray;
+    border-width: 0.4px;
+    padding: 5px;
+}
