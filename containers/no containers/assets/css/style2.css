@@ -80,6 +80,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   font-size: var(--fs-400);
+  line-height: 1.6;
 }
 
 h1,
