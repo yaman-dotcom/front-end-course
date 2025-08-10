@@ -71,6 +71,8 @@ li{
     background-image: url(../imgs/background-burgers-home-top\ 1.png);
     height: 742px;
     padding-top: 271px;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 h1{
     font-size: 140px; 
@@ -101,6 +103,7 @@ h1{
     gap:14px ;
     overflow: hidden;
     position: relative;
+    width: fit-content;
 }
 i{
     position: relative;
