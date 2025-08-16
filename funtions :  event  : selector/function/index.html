@@ -9,15 +9,26 @@
     
 
     <script>
+        //named function
+         function showNum(num){
+            console.log(num)
+        }
+        //anonymous function
         function show1(){
             console.log('1')
         }
+        //arrow function 
         let show2=()=>{
             console.log('2')
         }
+        //
         let show3=function(){
             console.log('3')
-        }
+        };
+        (function() {
+        console.log("I run instantly!");
+        })();
+        
     </script>
 </body>
 </html>
